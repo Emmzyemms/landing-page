@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback, useRef } from "react";
-import { Card } from "@/components/ui/card";
+import { Card } from "@/components/atoms/card";
 import {
   Sparkles,
   Check,
@@ -214,7 +214,7 @@ export function HeroDemo() {
           <div
             className={cn(
               "rounded-xl border border-border/50 bg-muted/20 p-4 transition-all duration-300 shrink-0",
-              showInput && phase !== "idle"
+              showInput
                 ? "border-primary/30 bg-primary/[0.03]"
                 : ""
             )}

@@ -1,7 +1,7 @@
-import { Card } from "@/components/ui/card";
-import { Navbar } from "@/components/navbar";
-import { Button } from "@/components/ui/button";
-import { HeroDemo } from "@/components/hero-demo";
+import { Card } from "@/components/atoms/card";
+import { Navbar } from "@/components/organisms/navbar";
+import { Button } from "@/components/atoms/button";
+import { HeroDemo } from "@/components/organisms/hero-demo";
 import {
   Zap,
   Globe,
